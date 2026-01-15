@@ -16,7 +16,7 @@ model = joblib.load('model_deteksi_diabetes.pkl')
 
 # judul
 st.title("🩺 Deteksi Dini Diabetes")
-st.write("(Threshold 0.65)")
+st.caption("Model XGBoost dengan Recall Tinggi (Threshold 0.65)")
 st.write("---")
 
 # input data
