@@ -88,3 +88,7 @@ if st.button('🔍 Cek Hasil Prediksi'):
     except Exception as e:
         st.error(f"Terjadi error saat prediksi: {e}")
         st.write("Cek apakah urutan kolom Feature Engineering sudah sama dengan notebook.")
+
+
+st.write("---")
+st.caption("**Disclaimer:** Aplikasi ini adalah alat bantu prediksi berbasis AI (Artificial Intelligence) dan bukan pengganti diagnosis medis profesional. Jika hasil prediksi menunjukkan risiko tinggi, segera konsultasikan dengan dokter.")
